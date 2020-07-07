@@ -1,0 +1,11 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(3, 21, 1);
+    color: rgb( 192, 238, 187);
+    padding: 5%;
+}
+
