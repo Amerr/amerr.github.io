@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Portfolio</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Portfolio</title>
-</head>
-<body>
-  <!-- Okay, let's do this one last time, yeah? For real this time. This is it. My name is Amerrnath. I was consumed by JS. And for like four years , I've been the one and only Frontend Developer. I think you know the rest. I finished my essay. I saved a bunch of people. Got hit by a bug. . Met my destiny finally.And when I feel alone, like no one understands what I'm going through, I remember my friends who get it. I never thought I'd be able to do any of this stuff. But I can. Anyone can code. You can code. If you didn't know that before, I hope you do now. Cuz I'm Web developer. And I'm not the only one. Not by a long shot. -->
-
-<div class="container">
   
-  <div class="homeScreen">
-    <div id="navigationBar">
-        <ul>
-          <li>Home</li>
-          <li>Bio</li>
-          <li>Portfolio</li>
-          <li>Activity</li>
-          <li>Contact</li>
-        </ul>
-    </div>
-    <div id="proPic">
-      <img src="https://growingsmilestx.com/wp-content/uploads/2019/04/206855.png" alt="avatar">
-    </div>
-    <div id="bioDesc">
-      <h1>NAME</h1>
-      <p>My name is Amerrnath. I was consumed by JS. And for like four years , I've been the one and only Frontend Developer. I think you know the rest. I finished my essay. I saved a bunch of people. Got hit by a bug. . Met my destiny finally.And when I feel alone, like no one understands what I'm going through, I remember my friends who get it. I never thought I'd be able to do any of this stuff. But I can. Anyone can code. You can code. If you didn't know that before, I hope you do now. Cuz I'm Web developer. And I'm not the only one. Not by a long shot</p>
-    </div>
+</head>
+<body class="bg-gray-900">
+  <!-- Okay, let's do this one last time, yeah? For real this time. This is it. My name is Amerrnath. I was consumed by JS. And for like four years , I've been the one and only Frontend Developer. I think you know the rest. I finished my essay. I saved a bunch of people. Got hit by a bug. . Met my destiny finally.And when I feel alone, like no one understands what I'm going through, I remember my friends who get it. I never thought I'd be able to do any of this stuff. But I can. Anyone can code. You can code. If you didn't know that before, I hope you do now. Cuz I'm Web developer. And I'm not the only one. Not by a long shot. -->
+  <div class="h-screen">
+    <header class="flex items-center justify-between px-4 py-2 bg-black" >
+      <div>
+          <img class="h-20" src="https://img.icons8.com/plasticine/2x/name.png" alt="logo">
+      </div>
+      <div class="px-5 pt-2 pb-4">
+        <a href="#" class="px-2 font-bold text-gray-400 hover:text-orange-600">Home</a>
+        <a href="#" class="px-2 font-bold text-gray-400 hover:text-orange-600">Bio</a>
+        <a href="#" class="px-2 font-bold text-gray-400 hover:text-orange-600">Portfolio</a>
+        <a href="#" class="px-2 font-bold text-gray-400 hover:text-orange-600">Activities</a>
+        <a href="#" class="px-2 font-bold text-gray-400 hover:text-orange-600">Contact</a>
+      </div>
+    </header>
+    <div class="px-6 mx-auto my-20 sm:my-10">
+        <img class="proPic" src="https://growingsmilestx.com/wp-content/uploads/2019/04/206855.png" alt="avatar"/>
+      <div class="my-10">
+        <h1 class="font-serif text-6xl font-bold  text-center text-gray-400">Isswarya Murugan</h1>
+        <h1 class="font-serif text-4xl font-bold text-center text-orange-600">Designation</h1>
+      </div>
 
+    </div>
   </div>
-
 
   <div class="bioScreen">
 
@@ -46,7 +47,11 @@
 
   </div>
 
-</div>
+
 
 </body>
+
+
+
+
 </html>
